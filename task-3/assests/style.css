@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .container > div {
+    background-image: radial-gradient(#BAA6FF,#9371FF, #8357FF);
+    height: 200px;
+    width: 20%;
+    margin: 10px;
+    padding: 25px;
+    color: white;
+  }
+  @media (max-width:767px){
+    .container > div{
+      width: 100%;
+    }
+  }
+  .number-icon-holder{
+    text-align: right;
+  }
+  i{
+    font-size: xx-large;
+  }
+  p{
+    font-weight: bolder;
+    font-size: large;
+  }
+ 

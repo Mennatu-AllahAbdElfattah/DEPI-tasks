@@ -1,0 +1,104 @@
+.contact-us{
+    background-color: white;
+    list-style-type: none;
+    display: inline-flex;
+    position: absolute;
+    top: -20px;
+    right: 15%;
+    margin: 0%;
+    padding: 0%;
+    color: gray;
+    box-shadow: 0px 0px 100px 0px;
+    border-radius: 5px;
+}
+.contact-us li{
+    display: flex;
+    border-right:1px solid #F7F8F9;
+    padding: 10px 142px 10px 20px;
+
+}
+.contact-us i{
+    margin-right: 10px;
+    color: #ED4718;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(../assests/images/bg.jpg);
+    background-size:contain;
+    position: relative;
+    margin-top: 50px;
+}
+.footer > div{
+    width: 15%;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+}
+@media(max-width:991px){
+    .footer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer > div {
+        width: 100%;
+    }
+}
+.col1,.col2{
+    background-color: rgba(5, 11, 33,0.5);
+}
+.col3 , .col4{
+    background-color: rgb(5, 11, 33);
+}
+.col1 img{
+width: 80%;
+display: block;
+margin-bottom: 20px;
+}
+.col1 ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0%;
+    padding: 0%;
+}
+.col1 li{
+    padding: 10px;
+    margin: 20px 20px 20px 0px;
+    background-color: black;
+}
+p{
+   font-weight: bolder;
+   font-size: x-large; 
+   margin: 0%;
+}
+.col2 ul, .col3 ul {
+    padding: 0%;
+    margin: 0%;
+    list-style-position: inside;
+}
+.col2 li,.col3 li{
+    margin:20px 0px;
+    padding-right: 20px;
+}
+.col2 li::marker,.col3 li::marker{
+    color:#ED4718;
+}
+.col4 ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+.col4 img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.col4 li{
+    margin-top:20px;
+    display: flex;
+}
+.col4 .timing{
+    color: #ED4718;
+}

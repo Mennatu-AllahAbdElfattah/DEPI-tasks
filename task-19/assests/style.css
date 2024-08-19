@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+}
+.our-leadership{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+height: 100%;
+}
+.our-leadership > div{
+    width: 20%;
+    text-align: center;
+    margin: 20px;
+    height: 100%;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    color:#0166D7;
+}
+@media(max-width:991px){
+    .our-leadership {
+        flex-direction: column;
+    } 
+    .our-leadership > div {
+        width: 100%;
+    }
+}
+img{
+    width: 100%;
+    height: 80%;
+    border-radius: 3%;
+}
+p{
+    text-align: center;
+    color: #0166D7;
+    font-weight: bold;
+}
+.icon-of-photo{
+    bottom: 18%;
+    right: 10%;
+    background-color: white;
+    border-radius: 20%;
+    position: absolute;
+    rotate: 45deg;
+}
+i{
+    rotate: 45deg;
+    color: #0166D7;
+    font-size: larger;
+    padding: 10px;
+}
+.our-leadership > div > p{
+    color: black;
+    font-size: x-large;
+}

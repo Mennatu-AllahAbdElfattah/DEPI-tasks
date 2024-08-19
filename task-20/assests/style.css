@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(219, 219, 219);
+}
+.bg{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-image: url(../assests/images/bg.jpeg);
+    background-size: 100vw 100vh;
+    color: white;
+    margin: 10px 20px;
+    height: 600px;
+}
+.bg > div{
+    width: 35%;
+    padding-top: 5%;
+    position: relative;
+}
+@media(max-width:991px){
+    .bg{
+        flex-direction: column;
+    }
+    .bg > div {
+        width: 100%;
+    }
+}
+form{
+    position: absolute;
+    width: 60%;
+    bottom: -3%;
+    left: 15%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 20px;
+    color: gray;
+}
+form p {
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+input{
+    font-family: FontAwesome;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(202, 202, 202);
+
+}
+textarea{
+    padding: 20px;
+    margin: 10px 0px;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(202, 202, 202);
+}
+button{
+    color: white;
+    background-color: #D6252B;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+span{
+    color:#D6252B ;
+    font-size: large;
+}
+.subtitle{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.numbering{
+    background-color: #D6252B;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #5F2633;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0%;
+    padding: 5% 0%;
+}
+li{
+    margin-right: 40px;
+}
+li p {
+    font-weight: bold;
+    font-size: large;
+}

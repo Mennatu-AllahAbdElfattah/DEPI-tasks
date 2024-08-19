@@ -1,0 +1,92 @@
+.story{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:991px){
+    .story{
+        flex-direction: column;
+    }
+}
+.story > div{
+    width: 30%;
+    height: 600px;
+    margin: 30PX;
+    position: relative;
+    padding: 30px;
+}
+@media(max-width:991px){
+    .story > div{
+        width: 100%;
+    }
+}
+img{
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+}
+span{
+    color: #ED343B;
+    font-size: small;
+}
+.title{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: black;
+}
+.left > div{
+position: absolute;
+width: 100px;
+height: 100px;
+bottom: 45%;
+right: -2%;
+background-color: white;
+border: 5px solid #FCFCFC;
+border-radius: 5%;
+text-align: center;
+color: gray;
+}
+.left > div::first-line{
+    color: #ED343B;
+    font-size: xx-large;
+}
+button{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    background-color: #ED343B;
+    color: white;
+    border-radius: 40px;
+    border: 0px none;
+    padding: 10px 20px;
+}
+.right{
+    color: gray;
+    position: relative;
+}
+.content{
+    display:flex;
+    margin-top: 20px;
+}
+i{
+    border-radius: 50%;
+    border:2px dashed #ED343B;
+    background-color: #FEEFF0;
+    margin:10px 20px 10px 0px;
+    padding: 30px 20px;
+    position: relative;
+}
+.smallicon{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50px;
+    right: -5px;
+    padding: 2px;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}

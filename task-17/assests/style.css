@@ -1,0 +1,54 @@
+body{
+    background-color: #FCFCFC;
+}
+p{
+    text-align: center;
+    color: #FF336A;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #002050;
+}
+.all-doctors{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+height: 100%;
+}
+.all-doctors > div{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    margin: 10px;
+    background-color:white;
+    box-sizing: border-box;
+}
+@media(max-width:991px){
+    .all-doctors{
+        flex-direction: column;
+    }
+    .all-doctors > div {
+        width: 100%;
+    }
+}
+img{
+    width: 100%;
+    height: 80%;
+}
+
+span{
+color: gray;
+font-size: small;
+font-weight: 500;
+}
+.all-doctors > div >p{
+padding:10px;
+color:#002050;
+text-align: left;
+font-weight: bolder;
+font-size: large;
+}

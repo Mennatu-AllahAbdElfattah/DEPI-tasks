@@ -1,0 +1,81 @@
+h5{
+    color: #FF3838;
+    text-align: center;
+}
+h5::after{
+    content: '___';
+    color: #FF3838;
+    vertical-align: super;
+    margin-left: 20px;
+}
+.title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+.latest-blog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.latest-blog > div{
+    margin: 20px;
+    width: 25%;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #c2c3c4;
+    color: gray;
+}
+@media (max-width:992px){
+    .latest-blog{
+        flex-direction: column;
+    }
+    .latest-blog > div{
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 60px;
+    }
+}
+.latest-blog img{
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.team{
+    color: white;
+    background-color: #FF3838;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    margin: 20px;
+}
+ul i{
+    color:#FF3838;
+    margin-right: 10px;
+}
+.content{
+    padding: 0px 20px;
+}
+.content p{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+.footer-of-div{
+position: absolute;
+bottom: 0px;
+padding: 20px;
+color: black;
+}

@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+}
+.offered-plans{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%;
+margin-top: 50px;
+}
+.offered-plans > div{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+    width: 20%;
+    height: 100%;
+    background-color: #EFF1F9;
+    border-radius: 20px;
+}
+@media(max-width:991px){
+    .offered-plans{
+        flex-direction: column;
+    }
+    .offered-plans > div {
+        width: 100%;
+    }
+}
+ul{
+    list-style-type: none;
+    color: gray;
+    border-top: 1px solid #8c919f;
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    margin: 20px 0px;
+}
+button{
+    padding: 5px 25px; 
+    border-radius: 50px;
+    background-color: #3E66F3;
+    border-style:none ;
+    color: white;
+}
+.price-of-plan{
+    position: absolute;
+    top: -14%;
+    left: 33%;
+    background-color: #3E66F3;
+    color: white;
+    border-radius: 50%;
+    border: 5px solid #EFF1F9;
+    padding:20px;
+}
+.offered-plans > div:nth-child(1),div>:nth-child(3){
+    margin-top: 50px;
+}
+li::before{
+    content: "\f00c";
+  font-family: FontAwesome;
+  margin: 0px;
+  padding-right :10px;
+  color: #8C919F;
+}
+.price-of-plan p{
+    font-size:xx-large;
+    font-weight: bolder;
+    margin: 0%;
+}
+.title{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 30px;
+}
